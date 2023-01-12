@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'worlds': "url('./src/assets/teste.jpg)",
+        'worlds2': "url('/src/assets/amazon.gif')"
       }
     },
   },
