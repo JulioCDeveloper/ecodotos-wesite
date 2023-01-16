@@ -24,7 +24,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between  py-6 md:justify-start md:space-x-10">
           <div className="flex justify-start ml-20 lg:w-0 lg:flex-1">
             <a href="#">
-              <span className="sr-only">EcoDots</span>
+              <span className="sr-only">Ecodots</span>
               <img
                 className="h-8 w-30 sm:h-10"
                 src={logo}
@@ -53,12 +53,10 @@ export default function Navbar() {
             </a>
           </Popover.Group> */}
           <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
-
             <a
               href="/"
-              className=" inline-flex shadow-xl items-center justify-center whitespace-nowrap rounded-md border border-transparent border-1 border-gray-200 px-12 py-1 text-base font-medium text-white hover:text-teal-400 shadow-sm hover:bg-white"
+              className=" inline-flex shadow-xl text-sm items-center justify-center whitespace-nowrap rounded-md border border-transparent border-1 border-gray-200 px-10 py-2 font-medium text-white hover:text-teal-400 shadow-sm hover:bg-white"
             >
-             
               Login
             </a>
           </div>
