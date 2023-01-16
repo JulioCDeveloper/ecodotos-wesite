@@ -1,9 +1,11 @@
 import React, { Fragment } from 'react'
-import AboutEco from '../../components/AboutEco'
+//import AboutEco from '../../components/AboutEco'
+import FooterPage from '../../components/Footer'
 import HeaderLayout from '../../components/Header'
 import Navbar from '../../components/Navbar'
 import Services from '../../components/Services'
-import WhyPlataform from '../../components/WhyPlataform'
+import UsePlatafotm from '../../components/UsePlataform'
+//import WhyPlataform from '../../components/WhyPlataform'
 
 const Home = () => {
   return (
@@ -11,8 +13,10 @@ const Home = () => {
       <Navbar />
       <HeaderLayout />
       <Services />
-      <WhyPlataform />
-      <AboutEco />
+      <UsePlatafotm />
+      {/* <WhyPlataform /> */}
+      {/* <AboutEco /> */}
+      <FooterPage />
     </Fragment>
   )
 }
