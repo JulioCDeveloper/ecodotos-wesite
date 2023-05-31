@@ -5,17 +5,30 @@ import HeaderLayout from '../../components/Header'
 import Navbar from '../../components/Navbar'
 import Services from '../../components/Services'
 import UsePlatafotm from '../../components/UsePlataform'
-//import WhyPlataform from '../../components/WhyPlataform'
+// import WhyPlataform from '../../components/WhyPlataform'
+import AboutEco from '../../components/AboutEco'
+import AboutLeft from '../../components/AboutEco/AboutLeft'
+import AboutRight from '../../components/AboutEco/AboutRight'
+import AboutDownEco from '../../components/AboutEco/AboutDownEco'
+import IntroEco from '../../components/Services/Components/IntroEco'
+import PartnesSection from '../../components/Services/Components/PartnesSection'
+import ContatoPage from '../../components/Contact'
 
 const Home = () => {
   return (
     <Fragment >
       <Navbar />
       <HeaderLayout />
-      <Services />
-      <UsePlatafotm />
+      <IntroEco />
+      <AboutLeft />
+      <AboutEco />
+      <AboutRight />
+      <AboutDownEco />
+      <PartnesSection />
+      <ContatoPage />
+      {/* <Services /> */}
+      {/* <UsePlatafotm /> */}
       {/* <WhyPlataform /> */}
-      {/* <AboutEco /> */}
       <FooterPage />
     </Fragment>
   )
