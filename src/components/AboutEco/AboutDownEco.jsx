@@ -6,10 +6,9 @@ const AboutDownEco = () => {
         <section class="text-gray-600 body-font">
             <div class="container mx-auto flex px-5  md:flex-row flex-col items-center">
                 <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                <Box display="flex" flexDirection="column">
+                    <Box display="flex" flexDirection="column">
                         <Typography fontSize={40} color={'black'}>Projetos de Créditos de Carbono
                         </Typography>
-                       
                     </Box>
                     <p class="leading-relaxed"><span className='font-bold'>Ecodots:</span> Nós desenvolvemos projetos de Créditos de Carbono para indústrias de reciclagem.</p>
                     <p class="leading-relaxed">Com nossa expertise e abordagem inovadora, ajudamos você a maximizar a sustentabilidade e a lucratividade do seu negócio, enquanto contribui para a redução das emissões globais de carbono</p>

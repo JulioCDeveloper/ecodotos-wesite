@@ -1,8 +1,6 @@
 import RoutesLayout from "./routes"
 
-
 function App() {
-
 
   return (
     <RoutesLayout />

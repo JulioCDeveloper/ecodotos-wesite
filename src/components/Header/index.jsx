@@ -1,4 +1,4 @@
-import { Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 import React from 'react'
 import './styles.css'
 /* bg-[url('/src/assets/amazon.gif')] */
@@ -8,14 +8,18 @@ const HeaderLayout = () => {
     return (
         <section class="text-gray-600 h-full bg-cover bg-[url('/src/assets/eco.gif')]">
 
-            <div class="container mx-auto flex px-5 py-36 md:flex-row flex-col items-center">
+            <div class="container mx-auto flex px-5 py-32 md:flex-row flex-col items-center">
                 <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                     <div className=''>
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-200 typewriter-text">
-                            Ecodots a sustentabilidade ao alcance de todos!
-                        </h1>
+                        <Box display="flex" flexDirection="column" className='typewriter-text'>
 
-
+                            <h1 class="title-font sm:text-4xl text-3xl  font-bold text-gray-200 ">
+                                Ecodots a sustentabilidade ao
+                            </h1>
+                            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-200">
+                                alcance de todos!
+                            </h1>
+                        </Box>
 
                         <div className='flex flex-col w-[100%]'>
                             <Typography color="white" fontSize={22}>Transformamos resíduos em receita
@@ -26,8 +30,6 @@ const HeaderLayout = () => {
                             </Typography>
                             <Typography color="white" fontSize={22}> projetos de Créditos de Carbono voltados à cadeia de reciclagem de resíduos!
                             </Typography>
-
-
 
                         </div>
 
