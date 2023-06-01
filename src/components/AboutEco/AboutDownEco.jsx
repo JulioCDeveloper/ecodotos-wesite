@@ -1,5 +1,5 @@
 import React from 'react'
-import img4 from '../../assets/about-img/4.svg'
+import img4 from '../../assets/about-img/2.svg'
 const AboutDownEco = () => {
     return (
         <section class="text-gray-600 body-font">

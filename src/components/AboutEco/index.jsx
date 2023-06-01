@@ -1,5 +1,5 @@
 import React from 'react'
-import img2 from '../../assets/about-img/2.svg'
+import img2 from '../../assets/about-img/4.svg'
 
 const AboutEco = () => {
     return (
