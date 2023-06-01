@@ -19,6 +19,7 @@ const AboutRight = () => {
                     <div class="flex justify-center">
                         <a target='_blank' href="http://ecodots.com.br" class="inline-flex cursor-pointer text-white bg-[#1DB3A4] border-0 py-2 px-6 focus:outline-none  rounded text-lg">Acesse já</a>
 
+
                     </div>
                 </div>
             </div>
