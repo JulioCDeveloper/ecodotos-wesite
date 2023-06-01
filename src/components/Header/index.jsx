@@ -1,18 +1,38 @@
+import { Typography } from '@mui/material';
 import React from 'react'
-
+import './styles.css'
 /* bg-[url('/src/assets/amazon.gif')] */
 /* bg-[url('/src/assets/eco.gif')] */
 
 const HeaderLayout = () => {
     return (
         <section class="text-gray-600 h-full bg-cover bg-[url('/src/assets/eco.gif')]">
-            <div class="container mx-auto flex px-5 py-56 md:flex-row flex-col items-center">
+
+            <div class="container mx-auto flex px-5 py-36 md:flex-row flex-col items-center">
                 <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-200">Seja bem vindo ao nosso site.
-                    </h1>
-                    <h1 class="text-gray-200 leading-relaxed  text-lg">Conecte-se e negocie diretamente com fornecedores e compradores de plásticos recicláveis </h1>
-                    <p class="mb-8 text-teal-400 font-bold">Ecodots &copy; </p>
-                    <div class="flex justify-start">
+                    <div className=''>
+                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-200 typewriter-text">
+                            Ecodots a sustentabilidade ao alcance de todos!
+                        </h1>
+
+
+
+                        <div className='flex flex-col w-[100%]'>
+                            <Typography color="white" fontSize={22}>Transformamos resíduos em receita
+                            </Typography>
+                            <Typography color="white" fontSize={22}>com responsabilidade e rastreabilidade blockchain.
+                            </Typography>
+                            <Typography color="white" fontSize={22}> Gerenciamos emissões de GEE e desenvolvemos
+                            </Typography>
+                            <Typography color="white" fontSize={22}> projetos de Créditos de Carbono voltados à cadeia de reciclagem de resíduos!
+                            </Typography>
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="flex mt-8 justify-start">
                         <a href="" className="inline-flex text-[14px] text-gray-200 bg-teal-500 border-0 py-4 px-12 focus:outline-none hover:bg-gray-200 hover:text-teal-500 rounded shadow-xl ">CADASTRE-SE</a>
                     </div>
                 </div>

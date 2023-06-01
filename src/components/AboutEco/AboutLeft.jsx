@@ -1,5 +1,6 @@
 import React from 'react'
 import img1 from '../../assets/about-img/1.svg'
+import { Box, Typography } from '@mui/material'
 
 const AboutLeft = () => {
     return (
@@ -9,12 +10,16 @@ const AboutLeft = () => {
                     <img class="object-cover object-center rounded" alt="hero" src={img1} />
                 </div>
                 <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                    <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Saiba com que a
-                        <br class="hidden lg:inline-block" />Ecodots trabalha.
-                    </h1>
-                    <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+                    <Box display="flex" flexDirection="column">
+                        <Typography fontSize={40} color={'black'}>Transforme seus resíduos
+                        </Typography>
+                        <Typography fontSize={40} color={'black'}>em fonte de renda.
+                        </Typography>
+                    </Box>
+
+                    <p class="mb-8 leading-relaxed">Transforme resíduos em receita com a Ecodots. Nossa plataforma inovadora monetiza seus resíduos, criando um fluxo de renda adicional e promovendo a sustentabilidade. Com a Ecodots, lucro e responsabilidade ambiental caminham juntos</p>
                     <div class="flex justify-center">
-                        <a target='_blank' class="inline-flex cursor-pointer text-white bg-[#1DB3A4] border-0 py-2 px-6 focus:outline-none  rounded text-lg">Acesse já</a>
+                        <a target='_blank' href='http://ecodots.com.br' class="inline-flex cursor-pointer text-white bg-[#1DB3A4] border-0 py-2 px-6 focus:outline-none  rounded text-lg">Acesse já</a>
 
                     </div>
                 </div>
