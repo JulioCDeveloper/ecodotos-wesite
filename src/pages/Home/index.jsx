@@ -17,7 +17,7 @@ import ContatoPage from '../../components/Contact'
 const Home = () => {
   return (
     <Fragment >
-      <Navbar />
+      {/* <Navbar /> */}
       <HeaderLayout />
       <IntroEco />
       <AboutLeft />
