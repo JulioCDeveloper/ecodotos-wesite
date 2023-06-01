@@ -1,5 +1,5 @@
 import React from 'react'
-import startup from '../../assets/startup.svg'
+import img2 from '../../assets/about-img/2.svg'
 
 const AboutEco = () => {
     return (
@@ -17,7 +17,7 @@ const AboutEco = () => {
                     </div>
                 </div>
                 <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                    <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" />
+                    <img class="object-cover object-center rounded" alt="hero" src={img2} />
                 </div>
             </div>
         </section>
