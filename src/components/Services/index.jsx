@@ -4,8 +4,6 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import { makeStyles } from '@mui/styles';
-
 
 function TabPanel(props) {
     const { children, value, index, ...other } = props;
@@ -40,17 +38,12 @@ function a11yProps(index) {
     };
 }
 
-const useStyles = makeStyles({
-    textTabs: {
-        color: "black"
-    }
-})
 
 export default function Services() {
 
 
     const [value, setValue] = React.useState(0);
-    const classes = useStyles();
+
 
     const handleChange = (event, newValue) => {
         setValue(newValue);
@@ -77,7 +70,7 @@ export default function Services() {
                                         TabIndicatorProps={{ style: { background: '#2BA3B4' } }}
                                         value={value} onChange={handleChange} sx={{ justifyContent: "center", display: "flex" }} aria-label="basic tabs example">
 
-                                        <Tab className={classes.textTabs} label={<span style={{ color: '#2BA3B4' }}>Compre resíduos</span>} {...a11yProps(0)} />
+                                        <Tab  label={<span style={{ color: '#2BA3B4' }}>Compre resíduos</span>} {...a11yProps(0)} />
 
                                         <Tab label={<span style={{ color: '#2BA3B4' }}>Venda resíduos</span>}{...a11yProps(1)} />
 

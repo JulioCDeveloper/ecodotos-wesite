@@ -1,0 +1,33 @@
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    50% { border-color: transparent; }
+  }
+
+  .typewriter-text {
+    border-right: .15em solid #1DB3A4; /* The typwriter cursor */
+    white-space: nowrap;
+    overflow: hidden; 
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  }
+  
+  .overlay::before {
+    content: '';
+    height: 77%;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    z-index: 1;
+  }
+  
+  .overlay > * {
+    position: relative;
+    z-index: 2;
+  }

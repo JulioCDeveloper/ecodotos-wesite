@@ -8,9 +8,7 @@ module.exports =  withMT({
   theme: {
     extend: {
       backgroundImage: {
-        'worlds': "url('./src/assets/teste.jpg)",
-        'teste2': "url('./src/assets/teste2.jpg)",
-        'worlds2': "url('/src/assets/eco.gif')"
+        'worlds3': "url('https://ecodots-media.s3.sa-east-1.amazonaws.com/uploads/ecodots.gif')"
       }
     },
   },
