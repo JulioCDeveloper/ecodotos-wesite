@@ -19,7 +19,9 @@ const PartnesSection = () => {
                 <div class="flex flex-wrap -m-4">
                     <div class="p-4 lg:w-1/4 md:w-1/2">
                         <div class="h-full flex flex-col items-center text-center">
-                            <a href='http://ecodots.com.br'>
+
+                            <a href='https://idesam.org'>
+
                                 <img alt="team" class="flex-shrink-0 rounded-lg w-full object-cover object-center mb-4" src={img1} />
                             </a>
 
@@ -27,7 +29,9 @@ const PartnesSection = () => {
                     </div>
                     <div class="p-4 lg:w-1/4 md:w-1/2">
                         <div class="h-full flex flex-col items-center text-center">
-                            <a href='http://ecodots.com.br'>
+
+                            <a href='https://cide.org.br'>
+
                                 <img alt="team" class="flex-shrink-0 rounded-lg w-full object-cover object-center mb-4" src={img2} />
                             </a>
 
@@ -36,7 +40,9 @@ const PartnesSection = () => {
                     </div>
                     <div class="p-4 lg:w-1/4 md:w-1/2">
                         <div class="h-full flex flex-col items-center text-center">
-                            <a href='http://ecodots.com.br'>
+
+                            <a href='https://www.gov.br/suframa/pt-br'>
+
 
                                 <img alt="team" class="flex-shrink-0 rounded-lg w-full  object-cover object-center mb-4" src={img3} />
                             </a>
@@ -45,7 +51,9 @@ const PartnesSection = () => {
                     </div>
                     <div class="p-4 lg:w-1/4 md:w-1/2">
                         <div class="h-full flex flex-col items-center text-center">
-                            <a href='http://ecodots.com.br'>
+
+                            <a href='https://ppbio.inpa.gov.br'>
+
                                 <img alt="team" class="flex-shrink-0 rounded-lg w-full object-cover object-center mb-4" src={img4} />
                             </a>
 
@@ -54,7 +62,9 @@ const PartnesSection = () => {
                     </div>
                     <div class="p-4 lg:w-1/4 md:w-1/2">
                         <div class="h-full flex flex-col items-center text-center">
-                            <a href='http://ecodots.com.br'>
+
+                            <a href='https://www.fujifilm.com/br/pt-br'>
+
                                 <img alt="team" class="flex-shrink-0 rounded-lg w-full object-cover object-center mb-4" src={img5} />
                             </a>
 
@@ -64,7 +74,9 @@ const PartnesSection = () => {
                     </div>
                     <div class="p-4 lg:w-1/4 md:w-1/2">
                         <div class="h-full flex flex-col items-center text-center">
-                            <a href='http://ecodots.com.br'>
+
+                            <a href='https://www.flex-am.com.br'>
+
                                 <img alt="team" class="flex-shrink-0 rounded-lg w-full object-cover object-center mb-4" src={img6} />
                             </a>
 
@@ -73,7 +85,9 @@ const PartnesSection = () => {
                     </div>
                     <div class="p-4 lg:w-1/4 md:w-1/2">
                         <div class="h-full flex flex-col items-center text-center">
-                            <a href='http://ecodots.com.br'>
+
+                            <a href='https://www.goldstandard.org'>
+
                                 <img alt="team" class="flex-shrink-0 rounded-lg w-full object-cover object-center mb-4" src={img7} />
                             </a>
 
@@ -82,7 +96,9 @@ const PartnesSection = () => {
                     </div>
                     <div class="p-4 lg:w-1/4 md:w-1/2">
                         <div class="h-full flex flex-col items-center text-center">
-                            <a href='http://ecodots.com.br'>
+
+                            <a href='https://www.btgpactual.com'>
+
                                 <img alt="team" class="flex-shrink-0 rounded-lg w-full object-cover object-center mb-4" src={img8} />
                             </a>
 

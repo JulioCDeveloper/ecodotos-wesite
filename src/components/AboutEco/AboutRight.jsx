@@ -17,7 +17,8 @@ const AboutRight = () => {
                     </Box>
                     <p class="mb-8 leading-relaxed">Oferecemos um inventário completo das suas emissões de GEE. Com precisão e eficiência, ajudamos você a entender e reduzir sua pegada de carbono.</p>
                     <div class="flex justify-center">
-                        <a target='_blank' class="inline-flex cursor-pointer text-white bg-[#1DB3A4] border-0 py-2 px-6 focus:outline-none  rounded text-lg">Acesse já</a>
+                        <a target='_blank' href="http://ecodots.com.br" class="inline-flex cursor-pointer text-white bg-[#1DB3A4] border-0 py-2 px-6 focus:outline-none  rounded text-lg">Acesse já</a>
+
 
                     </div>
                 </div>

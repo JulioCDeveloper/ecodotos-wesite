@@ -16,7 +16,8 @@ const AboutEco = () => {
                     </Box>
                     <p class="mb-8 leading-relaxed">Rastreabilidade total dos seus resíduos com a Ecodots. Graças à tecnologia blockchain, garantimos transparência e responsabilidade em cada etapa até o destino final!</p>
                     <div class="flex justify-center ">
-                        <a target='_blank' class="inline-flex cursor-pointer text-white bg-[#1DB3A4] border-0 py-2 px-6 focus:outline-none  rounded text-lg">Acesse já</a>
+                        <a target='_blank' href="http://ecodots.com.br" class="inline-flex cursor-pointer text-white bg-[#1DB3A4] border-0 py-2 px-6 focus:outline-none  rounded text-lg">Acesse já</a>
+
 
                     </div>
                 </div>
