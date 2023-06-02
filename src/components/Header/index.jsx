@@ -27,7 +27,7 @@ const HeaderLayout = () => {
                             <div className='space-x-4'>
                                 <a target='_blank'
                                     href="http://ecodots.com.br/auth/login"
-                                    className=" inline-flex shadow-xl text-sm items-center justify-center whitespace-nowrap rounded-md border border-transparent border-1 border-gray-200 px-10 py-2 font-medium text-white hover:text-grey-400 shadow-sm hover:bg-[#0E9384] hover:border-none"
+                                    className="shadow-xs inline-flex shadow-xl text-sm items-center justify-center bg-[#1DB3A4] whitespace-nowrap rounded-md  px-10 py-2 font-medium text-white hover:text-grey-400 shadow-sm hover:bg-[#0E9384] hover:border-none"
                                 >
                                     Login
                                 </a>
