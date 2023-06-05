@@ -19,7 +19,7 @@ const AboutLeft = () => {
 
                     <p class="mb-8 leading-relaxed">Transforme resíduos em receita com a Ecodots. Nossa plataforma inovadora monetiza seus resíduos, criando um fluxo de renda adicional e promovendo a sustentabilidade. Com a Ecodots, lucro e responsabilidade ambiental caminham juntos</p>
                     <div class="flex justify-center">
-                        <a target='_blank' href='http://ecodots.com.br' class="inline-flex cursor-pointer text-white bg-[#1DB3A4] border-0 py-2 px-6 focus:outline-none  rounded text-lg">Acesse já</a>
+                        <a target='_blank' href='http://www.ecodots.com.br/auth/login/' class="inline-flex cursor-pointer text-white bg-[#1DB3A4] border-0 py-2 px-6 focus:outline-none  rounded text-lg">Acesse já</a>
 
                     </div>
                 </div>

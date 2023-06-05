@@ -13,7 +13,7 @@ const AboutDownEco = () => {
                     <p class="leading-relaxed"><span className='font-bold'>Ecodots:</span> Nós desenvolvemos projetos de Créditos de Carbono para indústrias de reciclagem.</p>
                     <p class="leading-relaxed">Com nossa expertise e abordagem inovadora, ajudamos você a maximizar a sustentabilidade e a lucratividade do seu negócio, enquanto contribui para a redução das emissões globais de carbono</p>
                     <div class="flex justify-center mt-6">
-                        <a target='_blank' href="http://ecodots.com.br" class="inline-flex cursor-pointer text-white bg-[#1DB3A4] border-0 py-2 px-6 focus:outline-none  rounded text-lg">Acesse já</a>
+                        <a target='_blank' href="http://www.ecodots.com.br/auth/login/" class="inline-flex cursor-pointer text-white bg-[#1DB3A4] border-0 py-2 px-6 focus:outline-none  rounded text-lg">Acesse já</a>
 
                     </div>
                 </div>
