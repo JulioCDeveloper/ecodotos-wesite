@@ -18,7 +18,6 @@ const HeaderLayout = () => {
                                 <img
                                     className="w-[160px] sm:h-10"
                                     src={logo}
-
                                     alt="Ecodots" />
                             </a>
                         </div>
@@ -26,7 +25,7 @@ const HeaderLayout = () => {
                         <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
                             <div className='space-x-4'>
                                 <a target='_blank'
-                                    href="http://ecodots.com.br/auth/login"
+                                    href="http://www.ecodots.com.br/auth/login/"
                                     className="shadow-xs inline-flex shadow-xl text-sm items-center justify-center bg-[#1DB3A4] whitespace-nowrap rounded-md  px-10 py-2 font-medium text-white hover:text-grey-400 shadow-sm hover:bg-[#0E9384] hover:border-none"
                                 >
                                     Login
@@ -65,9 +64,7 @@ const HeaderLayout = () => {
 
                         </div>
                         <div class="flex mt-8 justify-start">
-
-                            <a href="https://ecodots.com.br/auth/cadastro" className="inline-flex text-[14px] text-gray-200 bg-teal-500 border-0 py-4 px-12 focus:outline-none hover:bg-gray-200 hover:text-teal-500 rounded shadow-xl ">CADASTRE-SE</a>
-
+                            <a href="http://www.ecodots.com.br/auth/cadastro/" className="inline-flex text-[14px] text-gray-200 bg-teal-500 border-0 py-4 px-12 focus:outline-none hover:bg-gray-200 hover:text-teal-500 rounded shadow-xl ">CADASTRE-SE</a>
                         </div>
                     </div>
                 </div>

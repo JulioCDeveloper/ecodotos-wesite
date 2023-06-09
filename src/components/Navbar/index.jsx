@@ -22,7 +22,7 @@ export default function Navbar() {
           <div className="hidden items-center justify-end md:flex md:flex-1 lg:w-0">
             <div className='space-x-4'>
               <a target='_blank'
-                href="http://ecodots.com.br/auth/login"
+                href="http://www.ecodots.com.br/auth/login/"
                 className=" inline-flex shadow-xl text-sm items-center justify-center whitespace-nowrap rounded-md border border-transparent border-1 border-gray-200 px-10 py-2 font-medium text-white hover:text-grey-400 shadow-sm hover:bg-[#0E9384] hover:border-none"
               >
                 Login
